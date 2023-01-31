@@ -165,7 +165,7 @@ img{
     display: flex;
     align-items: center;
 }
-.section1 {
+.hero {
     background: #2E2F42;
     background-image:linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -173,7 +173,7 @@ img{
          url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:100%;
+    background-size:1440px;
     padding-top: 188px;
     padding-bottom: 188px;
     margin-top: 0;
@@ -181,7 +181,7 @@ img{
 .container-hero{
     
 }
-.section1-title {
+.hero-title {
 margin: 0 auto;
 margin-bottom: 48px;
 width: 496px;
@@ -200,7 +200,7 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 
-.section1-btn {
+.hero-btn {
     margin: 0 auto;
     font-family: 'Roboto';
     font-style: normal;
@@ -220,8 +220,8 @@ color: #FFFFFF;
     
 
 }
-.section1-btn:hover,
-.section1-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     background: #404BBF;;
     color:#FFFFFF;
 }
@@ -234,38 +234,38 @@ color: #FFFFFF;
    
 
 }
-.section2 {
+.advantages {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
-.section2-title {
+.advantages-title {
     margin-bottom: 8px;
 
 }
-.section2-list {
+.advantages-list {
     display: flex;
     gap: 24px;
     width: calc((100% - 72px)/4);
 }
-.section2-blok-icon{
+.advantages-blok-icon{
     background: #F4F4FD;
     border-radius: 4px;
    padding: 24px 100px;
    margin-bottom:8px;
   
 }
-.section2-icon{
+.advantages-icon{
     fill: #2E2F42;
    
     
     
 }
     
-.section2-item {
+.advantages-item {
 
 }
-.section2-caption {
+.advantages-caption {
 ffont-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -274,7 +274,7 @@ color: var(--main-title-color);
 }
 
 
-.section2-text {
+.advantages-text {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -284,11 +284,11 @@ width: 264px;
 min-height: 72px;
 
 }
-.section3 {
+.work {
  padding-top: 0;  
 padding-bottom: 120px; 
 }
-.section3-title {
+.work-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -298,7 +298,7 @@ text-transform: capitalize;
 color: var(--main-title-color);
 margin-bottom: 72px;
 }
-.section3-list {
+.work-list {
     display: flex;
     gap: 24px;
     align-items: center;
@@ -306,16 +306,16 @@ margin-bottom: 72px;
    
 
 }
-.section3-item {
+.work-item {
 }
-.section3-link {
+.work-link {
 }
-.section4 {
+.command {
 background: #F4F4FD;
 padding-top: 120px;
 padding-bottom: 120px;
 }
-.section4-title {
+.command-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -326,7 +326,7 @@ margin-bottom: 72px;
 
 color: var(--main-title-color);
 }
-.section4-list {
+.command-list {
     display: flex;
     gap: 24px;
     align-items: center;
@@ -334,14 +334,14 @@ color: var(--main-title-color);
     width: calc((100% - 72px)/4);
     
 }
-.section4-item {
+.command-item {
     background-color: #FFFFFF;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 
                 0 1px 1px 0 rgba(46, 47, 66, 0.16), 
                 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
-.section4-caption {
+.command-caption {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -351,7 +351,7 @@ color: #2E2F42;
 margin-bottom: 8px;
 
 }
-.section4-text {
+.command-text {
 font-size: 16px;
 line-height: 1.5;
 text-align: center;
@@ -359,22 +359,22 @@ letter-spacing: 0.02em;
 margin-bottom: 8px;
 color: var(--main-text-color);
 }
-.section4-team {
+.command-team {
 background-color: #FFFFFF;
 padding-top: 32px;
 padding-bottom: 32px;
 
 }
-.section4-soc-list {
+.command-soc-list {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
-.section4-soc-item {
+.command-soc-item {
     width: 40px;
     height: 40px;
 }
-.section4-soc-link {
+.command-soc-link {
     width: 100%;
     height: 100%;
     background-color:#4D5AE5;
@@ -383,11 +383,11 @@ padding-bottom: 32px;
     justify-content: center;
     border-radius: 50%;
 }
-.section4-soc-link:is(:hover, :focus) {
+.command-soc-link:is(:hover, :focus) {
 background-color: #404BBF;;
  }
 
-.section4-soc-icon{
+.command-soc-icon{
   fill: #F4F4FD;  
 }
 .customers {
@@ -484,7 +484,8 @@ color: #FFFFFF;
     background-color: #31D0AA;
 }
 .section4-soc-icon {
-   fill: #F4F4FD; 
+   fill: #F4F4FD;
+   width: 24px, 24px; 
 }
 
 .footer-logo {
@@ -589,7 +590,7 @@ color: #4D5AE5;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
                 0px 2px 1px rgba(0, 0, 0, 0.08), 
                 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border: transparent;
+    border: (1px solid transparent);
 }
 
 .main-list {
