@@ -442,7 +442,7 @@ background: #2E2F42;
 }
 .container-footer-general{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     
 }
